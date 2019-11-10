@@ -194,3 +194,71 @@ Lugia
 Venusaur
 
 ![venusaur](https://user-images.githubusercontent.com/42793740/68538444-11b94e00-03a7-11ea-9394-f6d754955c66.PNG)
+
+## VLSM
+
+"Penggabungan Subnet"
+dilakukan secara satu persatu, tidak ada persyaratan atau ketentuan yang mana terlebih dahulu.
+Peraturan pada subneting tetap sama yaitu mencari router yang terdekat.
+
+![Screenshot (38)](https://user-images.githubusercontent.com/42942671/68545646-891bcb80-0401-11ea-814b-568fde8c550a.png)
+
+"Perhitungan VLSM"
+
+"Pembuatan Topologi di Putty"
+
+- SWITCHES
+
+![switch](https://user-images.githubusercontent.com/42942671/68545684-edd72600-0401-11ea-9d37-1f549c0ced7a.PNG)
+
+- ROUTERS
+
+![router](https://user-images.githubusercontent.com/42942671/68545695-03e4e680-0402-11ea-8ede-f7f7f0dff6b1.PNG)
+
+- SERVERS AND CLIENTS
+
+![server klien](https://user-images.githubusercontent.com/42942671/68545712-1ced9780-0402-11ea-9c2f-3b892fca87c4.PNG)
+
+"Subnetting pada UML"
+
+Pada UML, routing dilakukan pada device router dengan perintah :
+
+route add -net <NID subnet> netmask <netmask> gw <IP gateway>
+
+Lalu lihat hasil routing dengan perintah :
+
+route -n
+
+"Konfigurasi Static Routing agar dapat terhubung"
+
+PIKACHU
+
+![pika](https://user-images.githubusercontent.com/42942671/68545785-e9f7d380-0402-11ea-976c-a5afc8ada108.PNG)
+
+VENUSAUR
+
+![venu](https://user-images.githubusercontent.com/42942671/68545788-fa0fb300-0402-11ea-8970-8a6081619df9.PNG)
+
+CHARIZARD
+
+![char](https://user-images.githubusercontent.com/42942671/68545789-fbd97680-0402-11ea-8c6a-4cce0adb40cf.PNG)
+
+ARCEUS
+
+![arc](https://user-images.githubusercontent.com/42942671/68545791-fe3bd080-0402-11ea-9c78-0f0d0b6b13d3.PNG)
+
+BLASTOISE
+
+![blast](https://user-images.githubusercontent.com/42942671/68545792-fed46700-0402-11ea-9482-c138ff860348.PNG)
+
+LUGIA
+
+![lugia](https://user-images.githubusercontent.com/42942671/68545793-fed46700-0402-11ea-98a6-463cf7e27b50.PNG)
+
+DIALGA
+
+![dialga](https://user-images.githubusercontent.com/42942671/68545794-fed46700-0402-11ea-9a3b-ecd6acd24419.PNG)
+
+GIRATINA
+
+![giratina](https://user-images.githubusercontent.com/42942671/68545795-ff6cfd80-0402-11ea-9ab7-7d429fbc9a4f.PNG)
