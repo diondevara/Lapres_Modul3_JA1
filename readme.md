@@ -4,7 +4,7 @@
 
 ![subnet](https://user-images.githubusercontent.com/42793740/68537857-753e7e00-039d-11ea-8229-9b3293d1a896.png)
 
-Penggabungan subnet dimulai dari subnet paling bawah dari topologi.
+Penggabungan subnet dimulai dari subnet paling bawah dari topologi (subnet yang paling jauh dari router utama).
 Agar lebih efektif, subnet yang lebih kecil digabungkan terlebih dahulu sebelum digabungkan dengan subnet yang lebih besar.
 Subnet yang digabung akan bernilai satu tingkat lebih besar dari subnet terbesar yang digabungkan.
 
@@ -21,6 +21,14 @@ Subnet yang digabung akan bernilai satu tingkat lebih besar dari subnet terbesar
 ![topologi](https://user-images.githubusercontent.com/42793740/68537882-001f7880-039e-11ea-83b6-fb1b34eb59d3.PNG)
 
 - Subnetting di Cisco
+
+Pada CPT, interface dapat diatur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut.
+
+Atur IP pada client dan server dengan cara :
+
+1. Masuk ke client
+2. Pilih tab Desktop
+3. Pilih IP Configuration
 
 Pikachu
 
@@ -91,3 +99,98 @@ Dialga
 ![dialga 0 1](https://user-images.githubusercontent.com/42793740/68538192-de74c000-03a2-11ea-84cc-c35627fe3fc3.PNG)
 
 ![dialga 1 0](https://user-images.githubusercontent.com/42793740/68538253-0fa1c000-03a4-11ea-92fe-a1f8c615d3b6.PNG)
+
+Abra
+
+![abra](https://user-images.githubusercontent.com/42793740/68538351-82f80180-03a5-11ea-8e34-918bdc792f80.PNG)
+
+Aron
+
+![aron](https://user-images.githubusercontent.com/42793740/68538352-82f80180-03a5-11ea-9fae-da931a99d5bf.PNG)
+
+Articuno
+
+![articuno](https://user-images.githubusercontent.com/42793740/68538353-83909800-03a5-11ea-979c-17140fa840ba.PNG)
+
+Bewear
+
+![bewear](https://user-images.githubusercontent.com/42793740/68538354-83909800-03a5-11ea-9312-c0b76dcfb4eb.PNG)
+
+Buizel
+
+![buizel](https://user-images.githubusercontent.com/42793740/68538355-84292e80-03a5-11ea-8c11-036ca6a286f7.PNG)
+
+Cubone
+
+![cubone](https://user-images.githubusercontent.com/42793740/68538356-84292e80-03a5-11ea-8f23-adc93821063b.PNG)
+
+Hoothoot
+
+![hoothoot](https://user-images.githubusercontent.com/42793740/68538357-84c1c500-03a5-11ea-90a5-66327cf3dde2.PNG)
+
+Kadabra
+
+![kadabra](https://user-images.githubusercontent.com/42793740/68538358-84c1c500-03a5-11ea-91a5-b1df8ac1a0ab.PNG)
+
+Mewtwo
+
+![mewtwo](https://user-images.githubusercontent.com/42793740/68538359-84c1c500-03a5-11ea-95c8-9fb28fc41103.PNG)
+
+Piplup
+
+![piplup](https://user-images.githubusercontent.com/42793740/68538360-85f2f200-03a5-11ea-88c3-ea75cac89a3a.PNG)
+
+Psyduck
+
+![psyduck](https://user-images.githubusercontent.com/42793740/68538364-88554c00-03a5-11ea-9672-2e47271a15d1.PNG)
+
+Slowbro
+
+![slowbro](https://user-images.githubusercontent.com/42793740/68538365-88554c00-03a5-11ea-864b-811d8070a8a2.PNG)
+
+Snorlax
+
+![snorlax](https://user-images.githubusercontent.com/42793740/68538366-88ede280-03a5-11ea-9682-a031dfd14eaf.PNG)
+
+Swablu
+
+![swablu](https://user-images.githubusercontent.com/42793740/68538367-88ede280-03a5-11ea-8b49-5cdd5d33c0c8.PNG)
+
+- Routing di cisco
+
+Pada CPT, Routing dapat dilakukan pada menu Config > Routing > Static pada device Router. Lalu isi Static Routes dan tekan tombol Add.
+Pada static routing juga dibutuhkan default routing agar router dapat mengirimkan paket sesuai dengan tujuan. Default routing dibutuhkan untuk router yang berada di bawah router utama (router yang terhubung internet).
+
+Agar routing lebih sederhana maka digunakan subnet yang sudah dikelompokkan (digabung) agar lebih efektif. Sebagai contoh di router pikachu digunakan routing dengan nid 192.168.0.0/18 dan 192.168.128.0/18.
+
+Pikachu
+
+![pikachu](https://user-images.githubusercontent.com/42793740/68538443-1120b780-03a7-11ea-8d66-6d7a100e9872.PNG)
+
+Arceus
+
+![arceus](https://user-images.githubusercontent.com/42793740/68538437-0fef8a80-03a7-11ea-97c7-fca33da089f6.PNG)
+
+Blastoise
+
+![blastoise](https://user-images.githubusercontent.com/42793740/68538438-0fef8a80-03a7-11ea-83ee-64315a481172.PNG)
+
+Charizard
+
+![charizard](https://user-images.githubusercontent.com/42793740/68538439-10882100-03a7-11ea-944f-444303c6d4c0.PNG)
+
+Dialga
+
+![dialga](https://user-images.githubusercontent.com/42793740/68538440-10882100-03a7-11ea-94ff-657b17a3a493.PNG)
+
+Gratina
+
+![gratina](https://user-images.githubusercontent.com/42793740/68538441-10882100-03a7-11ea-9a88-3b93fafd4467.PNG)
+
+Lugia
+
+![lugia](https://user-images.githubusercontent.com/42793740/68538442-1120b780-03a7-11ea-8ff0-2b431e6dac34.PNG)
+
+Venusaur
+
+![venusaur](https://user-images.githubusercontent.com/42793740/68538444-11b94e00-03a7-11ea-9394-f6d754955c66.PNG)
